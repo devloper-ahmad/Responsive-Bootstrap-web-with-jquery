@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: sans-serif, 'roboto', serif;
+    background-color: #F6F5ED;
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+}
+
+.content {
+    margin-left: 274px;
+}
+
+.sidebar1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar1 li {
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    /* background: #000; */
+    text-decoration: none;
+    color: white;
+
+}
+
+.section {
+
+
+    padding-top: 80px;
+
+}
+
+.nav-link:hover {
+    border-radius: 5px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    /* Change the color as desired */
+}
+
+.nav-link.active {
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.icons {
+
+    margin-bottom: 50px;
+}
+
+#side_nav {
+    display: block;
+    background: #dc3545;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+
+}
+
+.content {
+    min-height: 100vh;
+    /* width: 100%; */
+}
+
+hr.h-color {
+    background: #eee;
+}
+
+
+@media(max-width: 767px) {
+    #side_nav {
+        margin-left: -250px;
+        position: absolute;
+        min-height: 100vh;
+        z-index: 1;
+
+    }
+
+
+    #side_nav.active {
+        margin-left: 0;
+    }
+}
+
+.head1 {
+    /* margin-top: 120px; */
+    font-size: 70px;
+    font-weight: 900;
+    font-family: serif;
+
+    margin-top: 300px;
+}
+
+
+.Awards {
+    margin-top: 200px;
+
+
+
+}
+
+.int {
+    padding-top: 150px;
+}
+
+.DK {
+    padding-top: 150px;
+}
+
+.head2 {
+
+
+    font-size: 40px;
+    font-weight: 700;
+    font-family: serif;
+}
+
+
+
+.h2 {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: serif;
+
+}
+
+.h3 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: serif;
+    color: grey;
+}
+
+.span {
+    color: #dc3545;
+}
+
+.p {
+    color: gray;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: serif;
+}
+
+.pic {
+    margin-top: 130px;
+    margin-left: 45px;
+}
+
+.top {
+    margin-top: 120px;
+}
+
+.main {
+    margin-left: 30px;
+}
+
+.bot {
+    margin-bottom: 250px;
+}
+
+
+
+.boddy {
+    margin-left: 47px;
+    margin-top: 101px;
+}
+
+
+
+.ic {
+    float: right;
+}
+
+.mrgin1 {
+    margin-top: 140px;
+}
+
+
+#Awards {
+    margin-top: 100px;
+
+}
+
+.mrgin {
+    margin-top: 200px;
+}
+
+.jm {
+    padding-bottom: 180px;
+}
+
+
+
+@media(max-width: 1600px) {
+    #Awards {
+        margin-top: 200px;
+
+    }
+}
+
+
+@media(max-width: 767px) {
+    #Awards {
+        margin-top: 0px;
+
+    }
+}
+
+@media(max-width: 767px) {
+    #Skill {
+        margin-top: 20px;
+        margin-bottom: 100px;
+
+    }
+}
+
+@media(max-width: 1600px) {
+    .head1 {
+        margin-top: 260px;
+
+    }
+}
+
+
+@media(max-width: 767px) {
+    .head1 {
+        margin-top: 0;
+
+    }
+}
+
+
+@media(max-width: 1600px) {
+    .bg {
+        display: none;
+
+    }
+}
+
+
+@media(max-width: 767px) {
+    .bg {
+        display: block;
+        color: white;
+        background-color: #dc3545;
+
+    }
+}
+
+
+
+
+
+@media(max-width: 1600px) {
+    .content {
+        margin-left: 274px;
+
+    }
+}
+
+
+@media(max-width: 767px) {
+    .content {
+        margin-left: 0;
+
+    }
+}
+
+
+
+@media(max-width: 1600px) {
+    .nav-item {
+        display: none;
+
+    }
+}
+
+@media(max-width: 767px) {
+    .nav-item {
+        display: block;
+
+    }
+}
+
+
+@media(max-width: 767px) {
+    .head2 {
+        font-size: 20px;
+
+    }
+}
+
+
+
+@media(max-width: 767px) {
+    .head1 {
+        font-size: 20px;
+
+    }
+}
